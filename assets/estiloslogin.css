@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'fuente Login';
+    src: url(fuentes/Bebas-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'fuenteVonyu';
+    src: url(fuentes/Vogue.ttf);
+}
+
+body{
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/*login*/
+/*parte izquierda*/
+#parteIzquierda .card-1{
+    width: 532px;
+    height: 250px;
+    margin-top: 93px;
+    margin-left: 77;
+    font-family: fuenteVonyu;
+
+}
+
+#parteIzquierda .card-2 {
+    width: 392px;
+    height: 88px;
+    margin-top: 10px;
+    margin-left: auto;  
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8A630;
+    font-size: 25px;
+    font-family: fuenteVonyu;
+}
+
+#tresImagenes img{
+    width: 200px;
+    height: 178px;
+    margin-top: 10px;
+}
+/*parte derecha*/
+#parteDerecha .card-3{
+    width: 532px;
+    height: 250px;
+    margin-top: 93px;
+    margin-right: 77;
+    border: none;
+    font-family: 'fuente Login';
+    
+}
+
+#parteDerecha .card-3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8A630;
+    margin-top: 30px;
+    font-family: 'fuente Login';
+}
+
+
+#parteDerecha .card-4{
+    width: 392px;
+    height: 88px;
+    margin-top: 10px;
+    margin-left: auto;  
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8A630;
+    font-size: 25px;
+    border: none;
+    font-family: 'fuente Login';
+}
+
+#parteDerecha img{
+    width: 200px;
+    height: 178px;
+    margin-top: 10px;
+}
+
+/*seccion-1*/
+/*LOGIN DE USUARIOS*/
+#loginUsuario{
+    margin-top: 50px;
+}
+
+#loginUsuario .mb-3{
+    width: 300px; 
+    height: 40px; 
+    margin-bottom: 10px; 
+    margin-left: auto;  
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginUsuario .btn{
+    margin-left: auto;  
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#parteInferiorSeccion1 p{
+    width: 300px; 
+    height: 40px; 
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#parteInferiorSeccion1 .card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #C8A630;
+}
+
+#parteInferiorSeccion1 img{
+    width: 200px;
+    height: 178px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #C8A630;
+    font-size: 25px;
+}
+
+/*seccion-2*/
+#loginUsuarioRegistrado{
+    margin-top: 93px;
+    margin-left: 77;
+}
+
+#loginUsuarioRegistrado .mb-3{
+    width: 432px;
+    height: 51px;
+}
+
+#loginUsuarioRegistrado .btn{
+    background: linear-gradient(0deg, #33B0A1 0%, #33B0A1 100%);
+}
+
+/*seccion-3*/
+/*seccion de planes de trabajo*/
+#seccion-3 img{
+    width: 150px;
+    height: 128px;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+#planTrabajo .parteSuperioPlan {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 40px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2PX white solid;
+}
+
+
+#partesuperiorPlan h1{
+    color: white;
+     text-align: left; 
+     margin-top: 15px;
+}
+
+#partesuperiorPlan .eleccionPlan {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border: 2px solid black; 
+    border-radius: 10px;
+  }
+  
+
+#planTrabajo .card{
+
+    width: 310px;
+    height: 310px;
+    background-color: rgb(180, 174, 174);
+
+}
+
+
+#planTrabajo .accederParteSupeior {
+    background-color: gray;
+    height: 40px;
+    width: 150px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    border: 2PX white solid;
+    color: white;
+}
+
+
+#planTrabajo .planGratuito {
+    border: 15px solid rgb(191, 255, 0);
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#planTrabajo .planAprendiz {
+    border: 15px solid rgb(0, 255, 72);
+    padding-top: 25px;
+    padding-left: 5PX;
+    padding-right: 5PX;
+}
+
+#planTrabajo .planPago {
+    border: 15px solid rgb(0, 128, 255);
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/*seccion 4*/
+/*formulario de pago*/
+#formularioPago{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgb(207, 207, 207);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#formularioPago i{
+    font-size: 40px;
+    margin: 20px;
+}
+
+#formularioPago{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 300px; 
+    margin-top: 40px;
+}
+
+#formularioPago img{
+    border-radius: 50%;
+}
+
+#formularioPago label {
+    text-align: center; 
+}
+
+#formularioPago input {
+    width: 90%; 
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+#botonPagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#botonPagar .boton {
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+}
+
+/*estilos del carrucel*/
+
+#imagenPanalExtra{
+
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+ 
+}

@@ -1,0 +1,156 @@
+body {
+    /*Colocando imagen de fondo*/
+    background-image: url("./img/fondos/FONDO2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+#logo-codificador{
+   
+    
+    width: 10%;
+    margin-top: 10px;
+
+}
+
+#logo-usuario > img {
+    background-color: #D1C133 ;
+    /*Haciendo la imagen mas pequeña*/
+    width: 110px;
+  
+    border-radius: 50%;
+  }
+
+
+
+.contenedor-encabezado-codificador{
+    background-color: #d9d9d9;
+    display: flex;
+
+}
+
+#contenedor-opciones-codificador{
+    margin-left: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+
+}
+
+.fa-house-user, .fa-circle-play, .fa-floppy-disk, .fa-gear{
+    font-size: 50px;
+  background-color: #D1C133;
+  
+
+    
+}
+
+#logo-panal{
+  width:110px;
+  border-radius: 30%;
+  margin-left: 50px;
+}
+
+.contenedor-codificadores{
+  display: flex;
+  gap: 150px;
+  margin-top: 50px;
+  margin-left: 60px;
+  
+  }
+
+
+#codificador-HTML, #codificador-CSS, #codificador-JS{
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width:28rem;
+}
+
+#logo-HTML{
+  width: 50px;
+  border-radius: 50%;
+}
+
+#logo-CSS{
+  width: 50px;
+  border-radius: 50%;
+}
+
+#logo-JS{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.encabezado{
+  display: flex;
+  gap: 90px;
+
+
+}
+
+.contenedor-textArea{
+  display: flex;
+  gap: 27rem;
+  margin-top: 10px;
+  margin-left: 30px;
+
+  
+  
+}
+
+ #texto-JS{
+  width: 290%;
+  background-color: #d9d9d9;
+
+  
+
+}
+
+#texto-HTML, #texto-CSS{
+  width: 350%;
+  background-color: #d9d9d9;
+
+}
+
+.contenedor-correr{
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+#outputFrame{
+  background-color: #d9d9d9;
+  height: 15rem;
+  width: 100%;
+  /*Poniendole espaciado en los bordes derecho e izquierdo*/
+
+}
+
+
+.modal-header{
+  background-color: #C2BA71;
+
+}
+
+.modal-content{
+  background-color: #d9d9d9;
+  background-image: url('./img/fondos/nuevo\ proyecto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#preprocesadoresModal{
+  color: white;
+
+}

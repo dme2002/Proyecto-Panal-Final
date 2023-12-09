@@ -1,0 +1,281 @@
+body {
+  /*Colocando imagen de fondo*/
+  background-image: url("./img/fondos/FONDO2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+
+#contenedor-titulo {
+  background-color: #d9d9d9;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#logo-usuario > img {
+  background-color: #d9d9d9;
+  /*Haciendo la imagen mas pequeña*/
+  width: 150px;
+
+  border-radius: 50%;
+}
+
+#contenedor-botones {
+  background-color: #d9d9d9;
+  width: 20%;
+  /*Centrando el div*/
+  /*Alineando los botones*/
+  display: flex;
+  
+  gap: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 40%;
+  margin-left: 28rem;
+  height: 50px;
+  padding: 15px;
+}
+
+.icono{
+  cursor: pointer;
+}
+
+#calendario {
+  background-color: #d9d9d9;
+  width: 10%;
+  height: 28%;
+  margin-right: 30%;
+  margin-left: 97rem;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+
+  
+}
+
+#contenedor-tabla {
+  background-color: #d9d9d9;
+  margin-top: 0px;
+  width: 50%;
+  margin-right: 40%;
+  margin-left: 28rem;
+}
+
+#proyecto {
+  background-color: white;
+}
+
+#carpeta {
+  /*Haciendo mas pequeña la imagen*/
+  width: 50px;
+}
+
+.contenedor-opciones {
+  position: fixed;
+  top: 20px; /* Ajusta la posición vertical según sea necesario */
+  left: 20px; /* Ajusta la posición horizontal según sea necesario */
+  background-color: #d9d9d9;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-top: 15rem;
+}
+
+/* Añade un borde al contenedor de opciones para mejorar la visibilidad */
+.contenedor-opciones {
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Añade estilo a las opciones */
+.opcion {
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Estilo para la carpeta */
+.carpeta {
+  width: 50px;
+}
+
+
+
+
+
+#modalUsuario {
+  
+  margin-left: 80rem; /* Ajusta la distancia del modal con respecto al logo usuario */
+  width: 20%;
+  margin-top: -22px;
+ 
+}
+
+
+#modalUsuario .modal-content {
+  align-items: center;
+  justify-content: center;  
+  background-color: rgba(179, 188, 71, 0.5); /* Cambia el color del modal según tus preferencias */
+
+
+}
+
+
+
+#logo-usuario.activo > img {
+  /* Estilos para el estado activo (modal mostrándose) */
+  background-color: #B3BC47CC; /* Cambia el color según tus preferencias */
+  /*Haciendo qe la imagen se vea mas clara simulando que esta encima*/
+  opacity: 2;
+  /*que la imagen tome mas color*/
+  
+  /*Haciendo la imagen mas pequeña*/
+
+
+}
+
+#modalUsuario .modal-content p {
+   color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+
+
+
+}
+
+.opcion{
+  cursor: pointer;
+}
+
+
+#modalNuevoProyecto .modal-content {
+  /* Establece la imagen de fondo y ajusta las propiedades de presentación */
+  background-image: url("./img/fondos/nuevo\ proyecto.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Añade opacidad al fondo si deseas */
+  
+}
+
+/* Ajusta los estilos según tus preferencias */
+#modalNuevoProyecto .modal-header,
+#modalNuevoProyecto .modal-body,
+#modalNuevoProyecto .modal-footer {
+  background-color: transparent; /* Fondo transparente para que la imagen sea visible */
+}
+
+#exampleModalLabel{
+  color: white;
+}
+
+
+.btn-primary,.btn-secondary{
+  background-color:#d9d9d9 ;
+  color: black;
+
+}
+
+.form-control{
+  background-color:#d9d9d9 ;
+  color:black;
+  font-weight: 700;
+}
+
+#logo-usuario{
+  cursor: pointer;
+}
+
+#proyecto{
+  cursor: pointer;
+}
+
+
+#contenedor-table{
+  background-color: #d9d9d9;
+  margin-top: 0px;
+  width: 50%;
+  margin-right: 40%;
+  margin-left: 28rem;
+ 
+}
+
+#nombre-carpeta{
+  background-color: #d9d9d9;
+  display: flex;
+  
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 40%;
+  margin-left: 28rem;
+}
+
+
+.fa-address-book{
+  font-size: 50px;
+  color:#B3BC47CC;
+}
+
+.fa-calendar-days {
+  font-size: 70px;
+  color: #FBAF88;
+  background: linear-gradient(45deg, #FFD7B2, #FFC3A0);
+  border-radius: 50%;
+  padding: 10px; /* Ajusta el espacio alrededor del ícono según sea necesario */
+}
+
+#logo-panal-proyectos{
+  width: 110px;
+  
+}
+
+#logo-panal-proyectos-nuevo{
+  width: 110px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+
+#btn-codificar{
+  background-color: #ffffff;
+        color: rgb(163, 111, 14);
+        margin-left: 98rem;
+        font-size: 20px;
+        margin-top: 10px;
+        border-radius: 15px;
+}
+
+
+#calendario-simple {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+  background-color: #555;
+  color:white;
+}
+
+#calendario-simple div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+}
