@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panal</title>
+    <link rel="stylesheet" href="assets/estiloslogin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body style="background-image: url(imagenes/fondos/fondo3.jpg);">
+
+
+
+<!--seccion de registro de usuario-->
+
+<section id="seccion-1" >
+  <div >
+    <form id="loginUsuario">
+        <fieldset>
+          <div class="mb-3">
+            <div class="mb-3">
+              <input type="text" id="usuarioInputNombre" name="usuario" required class="form-control" placeholder="Nombre Completo">
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="mb-3">
+              <input type="text" id="usuarioInputcorreo" name="usuario" required class="form-control" placeholder="Correo electronico">
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="mb-3">
+              <input type="password" id="contrasenaInputContraseña" class="form-control" placeholder="Contraseña">
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="mb-3">
+              <input type="password" id="contrasenaInputConfirmar" class="form-control" placeholder="confirmar Contraseña">
+            </div>
+          </div>
+          <!--<button type="button" id="btnAcceder" class="btn btn-primary opcion-menu" onclick="seleccionarOpcionMenu(2, this)">REGISTRARSE</button>--->
+          <button type="button" id="btnAcceder" class="btn btn-primary opcion-menu" onclick="registrarUsuario()">REGISTRARSE</button>
+
+        </fieldset>
+      </form>
+
+      <!--parte inferior-->
+    
+      <div class="container text-center" id="parteInferiorSeccion1">
+
+          <div class="">
+            <img id="imagenPanalExtra" src="imagenes/icono/logoPanal.jpg" alt="">
+          </div>
+
+      </div>
+      
+    </div>
+</section>
+
+
+
+<!--seccion5 carrucel-->
+<section id="seccion-5" style="display:none;">
+
+
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/156b1c71bb.js" crossorigin="anonymous"></script>  
+    <script src="assets/controlador.js"></script>
+    <script src="assets/controlador-codificador-carpetas.js"></script>
+</body>
+</html>
+
+
