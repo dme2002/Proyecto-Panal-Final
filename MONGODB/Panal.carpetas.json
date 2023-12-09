@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "657023152c3f856a333a15b2"
+  },
+  "id": 1,
+  "nombreCarpeta": "POOpractica",
+  "fecha": "02/12/2023",
+  "nombreArchivos": [
+    {
+      "nombreHTML": "HTML",
+      "nombreCSS": "CSS",
+      "nombreJS": "JS"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "657023152c3f856a333a15b3"
+  },
+  "id": 2,
+  "nombreCarpeta": "POOpractica2",
+  "fecha": "02/12/2023",
+  "nombreArchivos": [
+    {
+      "nombreHTML": "HTML",
+      "nombreCSS": "CSS",
+      "nombreJS": "JS"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "657023152c3f856a333a15b4"
+  },
+  "id": 3,
+  "nombreCarpeta": "POOpractica3",
+  "fecha": "02/12/2023",
+  "nombreArchivos": [
+    {
+      "nombreHTML": "HTML",
+      "nombreCSS": "CSS",
+      "nombreJS": "JS"
+    }
+  ]
+}]

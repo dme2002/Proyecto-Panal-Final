@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "657146686655cf5ba222e9fe"
+  },
+  "id": 1,
+  "nombreProyecto": "Rasengan",
+  "descripcion": "ataque de energia",
+  "fecha": "27/10/22",
+  "carpetas": [
+    {
+      "$oid": "657023152c3f856a333a15b2"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "657146686655cf5ba222e9ff"
+  },
+  "id": 2,
+  "nombreProyecto": "Zorro",
+  "descripcion": "ataque del Zorro",
+  "fecha": "27/10/22",
+  "carpetas": [
+    {
+      "$oid": "657023152c3f856a333a15b3"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "657146686655cf5ba222ea00"
+  },
+  "id": 3,
+  "nombreProyecto": "RR",
+  "descripcion": "patrulla roja",
+  "fecha": "27/10/22",
+  "carpetas": [
+    {
+      "$oid": "657023152c3f856a333a15b4"
+    }
+  ]
+}]

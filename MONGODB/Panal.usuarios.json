@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "657146876655cf5ba222ea03"
+  },
+  "nombreCompleto": "Naruto Uzumaki",
+  "correo": "naruto@gmail.com",
+  "contrasena": "asd.456",
+  "planElegido": 1,
+  "proyectos": [
+    {
+      "$oid": "657135016655cf5ba222e9e9"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "657146876655cf5ba222ea04"
+  },
+  "nombreCompleto": "Hinata Uzumaki",
+  "correo": "hinata@gmail.com",
+  "contrasena": "asd.123",
+  "planElegido": 2,
+  "proyectos": [
+    {
+      "$oid": "657135016655cf5ba222e9ea"
+    },
+    {
+      "_id": {
+        "$oid": "65714869b474c2defdec453a"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65714928a42ee0d0356fd98c"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "657146876655cf5ba222ea05"
+  },
+  "nombreCompleto": "N18",
+  "correo": "n18@gmail.com",
+  "contrasena": "asd.789",
+  "planElegido": 3,
+  "proyectos": [
+    {
+      "$oid": "657135016655cf5ba222e9eb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6573bcbc806e6a147fdef807"
+  },
+  "nombreCompleto": "Roshi ",
+  "correo": "roshi@outlook.com",
+  "contrasena": "roshi123",
+  "proyectos": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6573bcc5806e6a147fdef809"
+  },
+  "nombreCompleto": "Roshi ",
+  "correo": "roshi@outlook.com",
+  "contrasena": "roshi123",
+  "proyectos": [],
+  "__v": 0
+}]

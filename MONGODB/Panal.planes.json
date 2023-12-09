@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "656ff4a12c3f856a333a1595"
+  },
+  "id": 1,
+  "nombrePlan": "gratuito"
+},
+{
+  "_id": {
+    "$oid": "656ff4a12c3f856a333a1596"
+  },
+  "id": 2,
+  "nombrePlan": "aprendiz"
+},
+{
+  "_id": {
+    "$oid": "656ff4a12c3f856a333a1597"
+  },
+  "id": 3,
+  "nombrePlan": "desarrollador"
+}]
