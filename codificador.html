@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+    <script
+      src="https://kit.fontawesome.com/33c3fc8b29.js"
+      crossorigin="anonymous"
+    ></script>
+   
+    <!--Conectando el archivo css aqui-->
+    <link rel="stylesheet" href="assets/estiloscodificador.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificador</title>
+  </head>
+  <body>
+    <div class="contenedor-encabezado-codificador">
+      <div id="logo-codificador">
+        <img
+          id="logo-panal"
+          src="./assets/img/icono/logo-panal.jpg"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div id="contenedor-opciones-codificador">
+        <div>
+          <i class="fa-solid fa-circle-play icono" onclick="renderizarCodigo()"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-floppy-disk" onclick="descargarArchivos()"></i>
+        </div>
+        <div>
+          <i
+            class="fa-solid fa-gear"
+            onclick="mostrarModalConfiguracion()"
+          ></i>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-house-user icono"></i>
+        </div>
+        <div id="logo-usuario">
+          <img
+            src="./assets/img/icono/usuario abejafinal.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="contenedor-codificadores">
+      <div class="codificador" id="codificador-HTML">
+        <div class="encabezado">
+          <img
+            id="logo-HTML"
+            src="./assets/img/icono/HTML.png"
+            alt=""
+            srcset=""
+          />
+          <h3>Titulo HTML</h3>
+         
+        </div>
+      </div>
+
+      <div class="codificador" id="codificador-CSS">
+        <div class="encabezado">
+          <img
+            id="logo-CSS"
+            src="./assets/img/icono/logo-CSS.png"
+            alt=""
+            srcset=""
+          />
+          <h3>Titulo CSS</h3>
+          
+        </div>
+      </div>
+
+      <div class="codificador" id="codificador-JS">
+        <div class="encabezado">
+          <img
+            id="logo-JS"
+            src="./assets/img/icono/javascript-logo-javascript-icon-transparent-free-png.webp"
+            alt=""
+            srcset=""
+          />
+          <h3>Titulo JS</h3>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="contenedor-textArea">
+      <div id="codigo-HTML">
+        <textarea
+          id="texto-HTML"
+          placeholder="Escribe aquí..."
+          rows="15"
+        ></textarea>
+      </div>
+      <div id="codigo-CSS">
+        <textarea
+          id="texto-CSS"
+          placeholder="Escribe aquí..."
+          rows="15"
+        ></textarea>
+      </div>
+      <div id="codigo-JS">
+        <textarea
+          id="texto-JS"
+          placeholder="Escribe aquí..."
+          rows="15"
+        ></textarea>
+      </div>
+    </div>
+
+    <div class="contenedor-correr">
+      <iframe id="outputFrame" frameborder="0"></iframe>
+    </div>
+
+    <div class="modal fade" id="preprocesadoresModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Configuración de Panal
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Sección 1: Preprocesador HTML -->
+            <div>
+              <h4> HTML</h4>
+              <label for="htmlPreprocesador">Ingresa el nombre del archivo HTML:</label>
+              <input type="text" id="htmlPreprocesador" class="form-control" >
+            </div>
+    
+            <!-- Sección 2: Preprocesador CSS -->
+            <div>
+              <h4>CSS</h4>
+              <label for="cssPreprocesador">Ingresa el nombre del archivo CSS:</label>
+              <input type="text" id="cssPreprocesador" class="form-control" >
+            </div>
+    
+            <!-- Sección 3: Preprocesador JS -->
+            <div>
+              <h4>JS</h4>
+              <label for="jsPreprocesador">Ingresa el nombre del archivo JS:</label>
+              <input type="text" id="jsPreprocesador" class="form-control" >
+            </div>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <!-- Botón de Guardar -->
+            <button type="button" class="btn btn-primary">
+              <i class="fas fa-save"></i> Guardar
+            </button>
+    
+            <!-- Botón de Cerrar -->
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              <i class="fas fa-times"></i> Cancelar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+    <script src="assets/controlador-codificador-carpetas.js"></script>
+    <script src="assets/controlador.js"></script>
+  </body>
+</html>

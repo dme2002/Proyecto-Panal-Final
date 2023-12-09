@@ -1,0 +1,243 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panal</title>
+    <link rel="stylesheet" href="assets/estiloslogin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+ 
+ 
+  </head>
+  <body style="background-image: url(imagenes/fondos/fondo3.jpg);">
+
+    <!--seccion de login-->
+
+    <section id="seccion-0" style="display:block;">
+      <div class="container text-center">
+        
+        <div class="row ">
+          <div class="col-6" id="parteIzquierda">
+            <div class="card card-1">
+                <div class="card-body">
+                  <p class="card-text1">TRABAJA EN TUS PROYECTOS DE MANERA PRACTICA, SENCILLA Y SIN DIFUCULTAN, PRACTICA TUS CODIGOS O VISUALIZALOS SIN LA NECESIDAD DE INSTALAR PROGRAMAS Y TRABAJO DE MANERA EFECTIVA DESDE DONDE QUIERAS</p>
+                  <p class="card-text2">CREA TUS PROYECTOS, MODIFICALOS, ACTUALIZALOS, COOMPARTELOS Y TENLOS SIEMPRE DISPONIBLES EN CUALQUIER MOMENTO</p>
+                </div>
+              </div>
+
+              <div class="card card-2">
+                <p class="card-text3 opcion-menu" onclick="seleccionarOpcionMenu(3, this)">CONOCE NUESTROS PLANES DE TRABAJO</p>
+              </div>
+
+              <div id="tresImagenes"><img src="imagenes/icono/tresLogos.jpg" alt=""></div>
+
+          </div>
+          <div class="col-6" id="parteDerecha">
+            <div class="card card-3">
+              <div class="card" style="border: none;">
+                <div class="card-body opcion-menu" id="registrarseAhora" onclick="redirigirARegistro()">
+                  <h1>REGISTRARSE AHORA</h1>
+                </div>
+              </div>
+
+<div class="card opcion-menu" id="accederBtn" onclick="seleccionarOpcionMenu(2, this)" style="border: none;">
+  <div class="card-body">
+    <h1>ACCEDER</h1>
+  </div>
+</div>
+
+        
+               
+            </div>
+            <div class="card card-4">
+              <p class="card-text3"><a href="#" id="conocenosCarrucel" onclick="redirigirAConocenos()">CONÓCENOS</a></p>
+          </div>
+          
+  
+          <div>
+              <img src="imagenes/icono/logoPanal.jpg" alt="">
+          </div>
+        </div>
+        
+
+        </div>
+      </div>
+    </section>
+
+
+
+<!--seccion de registro de usuario-->
+
+
+
+<!--seccion de accedo de usuario ya registrado-->
+
+<section id="seccion-2" style="display:none;">
+    <div class="container text-center">
+        
+        <div class="row">
+          <div class="col-6" id="parteIzquierda">
+            <div class="card card-1">
+                <div class="card-body">
+                  <p class="card-text1">TRABAJA EN TUS PROYECTOS DE MANERA PRACTICA, SENCILLA Y SIN DIFUCULTAN, PRACTICA TUS CODIGOS O VISUALIZALOS SIN LA NECESIDAD DE INSTALAR PROGRAMAS Y TRABAJO DE MANERA EFECTIVA DESDE DONDE QUIERAS</p>
+                  <p class="card-text2">CREA TUS PROYECTOS, MODIFICALOS, ACTUALIZALOS, COOMPARTELOS Y TENLOS SIEMPRE DISPONIBLES EN CUALQUIER MOMENTO</p>
+                </div>
+              </div>
+
+              <div class="card card-2">
+                <p class="card-text3" onclick="seleccionarOpcionMenu(3, this)">CONOCE NUESTROS PLANES DE TRABAJO</p>
+               
+              </div>
+
+              <div><img src="" alt=""></div>
+
+          </div>
+          <div class="col-6" id="parteDerecha">
+            <form id="loginUsuarioRegistrado">
+                <fieldset>
+
+                  <div class="mb-3">
+                    <div class="mb-3">
+                      <input type="text" id="accesoCorreo" name="usuario" required class="form-control" placeholder="Correo electronico">
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="mb-3">
+                      <input type="password" id="accesoContraseña" class="form-control" placeholder="Contraseña">
+                    </div>
+                  </div>
+                  <button type="button" id="btnAcceder" class="btn btn-primary" onclick="loginUsuario()">ACCEDER</button>
+                </fieldset>
+              </form>
+              <DIV><img src="imagenes/icono/logoPanal.jpg" alt=""></DIV>
+             
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+<!--seccion paara escojer el plan de trabajo-->
+
+<section id="seccion-3" style="display:none;">
+  <!--parte superior-->
+  
+  <div id="partesuperiorPlan" class="container text-center ">
+      <div class="row">
+        <div class="col-4">
+          <DIV id="imgPlan"><img src="imagenes/icono/logoPanal.jpg" alt=""></DIV>
+        </div>
+        <div class="col-8">
+          <h1 class="eleccionPlan">ELIGE EL PLAN DE TRABAJO QUE MAS SE AJUSTE ATI Y SE PARTE DE NUESTRA</h1>
+        </div>
+    </div>
+  
+    <div id="planTrabajo" class="container-fluid">
+    
+          <div class="row">
+              <div class="col-4 " >
+                <div class="parteSuperioPlan ">PLAN GRATUITO</div>
+                  <div class="card planGratuito">
+                      
+                      <div>
+                          <p>Desarrollado para cualquier persona </p>
+                          <p>Límite de 3 proyectos como máximo</p>
+                          <p>Acceso a herramientas de HTML, CSS y JavaScript</p>
+                      </div>
+                      
+                  </div>
+                  <div class="accederParteSupeior  opcion-menu" onclick="redirigirARegistro()">ACCEDER</div>
+              </div>
+              <div class="col-4">
+                <div class="parteSuperioPlan">PLAN DE APRENDIZ</div>
+                <div class="card planAprendiz">
+                    
+                    <div>
+                        <p> Disarrollado para escuelas, colegios, universidades y casa de estudio</p>
+                        <p>Totalmente Gratuito bajo convenio </p>
+                        <p>Limite de 20 proyectos como maximo</p>
+                        <p>Accedo a heramientas de HTML, CSS y JavaScript</p>
+                        <p>Grupos de trabajo colaborativos</p>
+                        
+                    </div>
+                 
+                </div>
+                <div class="accederParteSupeior  opcion-menu" onclick="redirigirARegistro()">ACCEDER</div>
+            </div>
+            <div class="col-4">
+              <div class="parteSuperioPlan">PLAN DE PAGO</div>
+              <div class="card planPago">
+  
+                  <div>
+                      <p>Disarrollado para expertos en programacion </p>
+                      <p>Sin limite de proyectos</p>
+                      <p>Accedo a heramientas de HTML, CSS, JavaScript y mas</p>
+                      <p>Agregar mas aqui</p>
+                  </div>
+                  
+              </div>
+              <div class="accederParteSupeior opcion-menu" onclick="redirigirARegistro()">ACCEDER</div>
+          </div>
+          </div>
+  
+  </div>
+  
+  <div class="container-fluid">
+  
+  </div>
+  </section>
+
+  
+
+
+<!--para pagar-->
+
+<section id="seccion-4" style="display:none;">
+  <div class="container">
+      <form id="pagar">
+        
+          <div id="formularioPago">
+            <img src="imagenes/icono/logoPanal.jpg" alt="">
+            <div class="formaPagar">
+              
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-solid fa-credit-card"></i>
+            </div>
+              <label for="card-number">Número de Tarjeta</label>
+              <input type="text" id="card-number" name="card-number" placeholder="Ingrese el número de tarjeta" required>
+
+              <label for="card-holder">Titular de la Tarjeta</label>
+              <input type="text" id="card-holder" name="card-holder" placeholder="Ingrese el nombre del titular" required>
+
+              <label for="expiry-date">Fecha de Vencimiento</label>
+              <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="Ingrese el código de seguridad" required>
+          </div>
+
+          <div  id="botonPagar">
+              <button class="boton" type="button">Pagar</button>
+          </div>
+          
+      </form>
+  </div>
+</section>
+
+
+<!--seccion5 carrucel-->
+<section id="seccion-5" style="display:none;">
+
+
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/156b1c71bb.js" crossorigin="anonymous"></script>  
+    <script src="assets/controlador.js"></script>
+    <script src="assets/controlador-codificador-carpetas.js"></script>
+
+</body>
+</html>
