@@ -1,0 +1,35 @@
+[
+  {
+    "nombreCompleto": "Naruto Uzumaki",
+    "correo": "naruto@gmail.com",
+    "contrasena": "asd.456",
+    "planElegido": 1,
+    "proyectos": [
+      {
+        "$oid": "657135016655cf5ba222e9e9"
+      }
+    ]
+  },
+  {
+    "nombreCompleto": "Hinata Uzumaki",
+    "correo": "hinata@gmail.com",
+    "contrasena": "asd.123",
+    "planElegido": 2,
+    "proyectos": [
+      {
+        "$oid": "657135016655cf5ba222e9ea"
+      }
+    ]
+  },
+  {
+    "nombreCompleto": "N18",
+    "correo": "n18@gmail.com",
+    "contrasena": "asd.789",
+    "planElegido": 3,
+    "proyectos": [
+      {
+        "$oid": "657135016655cf5ba222e9eb"
+      }
+    ]
+  }
+]

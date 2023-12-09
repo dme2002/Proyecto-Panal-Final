@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "nombrePlan": "gratuito"
+    },
+    {
+        "id": 2,
+        "nombrePlan": "aprendiz"
+      },
+      {
+        "id": 3,
+        "nombrePlan": "desarrollador"
+      }
+]
